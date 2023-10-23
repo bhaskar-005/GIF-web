@@ -1,0 +1,77 @@
+.Main-div{
+    background-color: rgb(155, 233, 237);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+.Main-div:hover{
+    box-shadow: rgba(255, 255, 255, 0.345) 0px 54px 55px, rgba(111, 215, 215, 0.586) 0px -12px 30px, rgba(10, 85, 105, 0.12) 0px 4px 6px, rgba(4, 37, 42, 0.17) 0px 12px 13px, rgba(4, 31, 33, 0.444) 0px -3px 5px;
+}
+.text{
+    margin-top: 0;
+    text-align: center;
+    color:rgba(5, 5, 5, 0.838);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.buttonTag{
+    padding: 7px;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border: solid black 0.7px;
+    background-color: rgb(166, 249, 149);
+    transition: all 0.02s;
+    margin: 8px;
+    margin-right: 7px;
+    
+}
+.buttonTag:hover{
+    background-color: rgb(103, 249, 103);
+    
+}
+.div-img{
+    background-color: rgb(25, 25, 25);
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+.imageRan{
+    max-width: 100%;
+    max-height: 400px;
+    align-items: center;
+}
+.input-button{
+    display: flex;
+    margin-top: 20px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    justify-content: space-around;
+    border: solid black 0.7px;
+}
+.input-text{
+    padding: 0px;
+    font-size: 15px;
+    border: none;
+    width: 100%;
+    margin-left: 20px;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Main-div{
+        padding: 10px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    
+  }

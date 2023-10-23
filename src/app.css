@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(228, 228, 228);
+}
+.navbar {
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  background: linear-gradient(
+    90deg,
+    rgba(19, 92, 180, 1) 0%,
+    rgba(22, 46, 96, 1) 0%,
+    rgba(15, 17, 88, 1) 59%
+  );
+  margin-bottom: 20px;
+}
+.mainSection {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .mainSection {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+  }
+}
