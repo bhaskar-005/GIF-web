@@ -8,7 +8,7 @@ import axios from 'axios';
 const userRandomGif = () => {
     const [Randomgif , setRandomgif] = useState('')
     const [loading ,setloading] = useState(false)
-    const API_KEY = 'dGrYzO6z47DjnM6DNy9OLT0Q8WOhoMxW'
+    const API_KEY = process.env.API_KEY;
     
     async function fetchRandomdata(){
       
