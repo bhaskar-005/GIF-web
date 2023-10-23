@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 const useGif = (tag) => {
   const [gif, setgif] = useState("");
   const [loading, setloading] = useState(false);
-  const API_KEY = 'dGrYzO6z47DjnM6DNy9OLT0Q8WOhoMxW'
+  const API_KEY = process.env.API_KEY;
 
   const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}&tag=${tag}`;
   const fetchImgdata = async () => {
